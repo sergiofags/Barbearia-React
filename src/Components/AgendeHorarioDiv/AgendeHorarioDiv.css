@@ -1,0 +1,63 @@
+.agendehorario {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+
+.agendehorario h1 {
+  color: #444;
+  font-family: Roboto;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.09375rem;
+  margin-bottom: 15px;
+}
+
+.agendehorario button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  outline: 1px solid #333;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  padding-left: 57px;
+  padding-right: 57px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.agendehorario button:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+}
+
+.agendehorario button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  transform: translateX(-100%);
+  transition: all .5s;
+  z-index: -1;
+}
+
+.agendehorario button:hover::before {
+  transform: translateX(0);
+}

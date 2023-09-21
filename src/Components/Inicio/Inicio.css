@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.banner {
+  background-image: url('../../Images/bannerInicio.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 768px;
+}
+
+.container-inicio-banner {
+  width: 1170px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.text-banner-inicio {
+  width: 370px;
+}
+
+.text-banner-inicio h1 {
+  text-align: justify;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.1125rem;
+  margin-bottom: 30px;
+}
+
+.text-banner-inicio p {
+  text-align: justify;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04688rem;
+  margin-bottom: 30px;
+}
+
+.button-banner-inicio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-banner-inicio button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  outline: 2px solid #fff;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  padding-left: 47px;
+  padding-right: 47px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.button-banner-inicio button:hover {
+  cursor: pointer;
+  color: #333;
+  font-weight: 400;
+}
+
+.button-banner-inicio button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(-100%);
+  transition: all .5s;
+  z-index: -1;
+}
+
+.button-banner-inicio button:hover::before {
+  transform: translateX(0);
+}
+
+.button-inicio-servicos {
+  display: flex;
+}
+
+.button-inicio-servicos button {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.9rem 1.8rem;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  outline: 1px solid #333;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  padding-left: 47px;
+  padding-right: 47px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.button-inicio-servicos button:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+}
+
+.button-inicio-servicos button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  transform: translateX(-100%);
+  transition: all .5s;
+  z-index: -1;
+}
+
+.button-inicio-servicos button:hover::before {
+  transform: translateX(0);
+}
+
+.button-inicio-dois {
+  margin-left: 15px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.servicos-inicio {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container-inicio-servicos {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-inicio-servicos {
+  width: 500px;
+}
+
+.text-inicio-servicos h3 {
+  color: #333;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 15px;
+}
+
+.text-inicio-servicos h1 {
+  color: #444;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.09375rem;
+  margin-bottom: 15px;
+}
+
+.text-inicio-servicos p {
+  color: #333;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.875rem; /* 150% */
+  letter-spacing: 0.0625rem;
+  margin-bottom: 15px;
+}
+
+/* --------------------------------------------------------------- */
+
+.agende-inicio {
+  background-color: #F3F3F3;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container-inicio-agende {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-inicio-agende {
+  width: 570px;
+}
+
+.text-inicio-agende h3 {
+  color: #333;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 15px;
+}
+
+.text-inicio-agende h1 {
+  color: #333;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.09375rem;
+  margin-bottom: 15px;
+}
+
+.text-inicio-agende p {
+  color: #333;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.875rem; /* 150% */
+  letter-spacing: 0.0625rem;
+  margin-bottom: 15px;
+}
+
+.button-inicio-agende button {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.9rem 1.8rem;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  outline: 1px solid #333;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  padding-left: 47px;
+  padding-right: 47px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.button-inicio-agende button:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+}
+
+.button-inicio-agende button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  transform: translateX(-100%);
+  transition: all .5s;
+  z-index: -1;
+}
+
+.button-inicio-agende button:hover::before {
+  transform: translateX(0);
+}
+
+.image-inicio-servicos {
+  overflow: hidden; 
+  width: 572px; 
+  height: 371px; 
+  margin-bottom: 20px; 
+  float: left; 
+  border-radius: 6px; 
+  transition-duration: 800ms;
+}
+
+.image-inicio-agende {
+  overflow: hidden; 
+  width: 500px; 
+  height: 393px; 
+  margin-bottom: 20px; 
+  float: left; 
+  border-radius: 6px; 
+  transition-duration: 800ms;
+}
+
+.image-inicio-servicos:hover, .image-inicio-agende:hover {
+  transition-duration: 800ms; 
+} 
+
+.image-inicio-servicos img, .image-inicio-agende img{
+  /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1); /* Tamanho Normal da imagem */
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+
+  /* Webkit for Mozilla Firefox */
+  -moz-transform: scale(1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
+
+.image-inicio-servicos img:hover, .image-inicio-agende img:hover {
+  /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1.1); /* Esta é a escala de tamanho ampliada da imagem. */
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+
+  /* Webkit for Mozilla Firefox */
+  -moz-transform: scale(1.1);
+  -moz-transition-duration: 800ms;
+  -moz-transition-timing-function: ease-out;
+
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1.1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
