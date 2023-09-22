@@ -7,6 +7,7 @@ import imageQuatro from '../../Images/quemsomosQuatro.png';
 import imageCinco from '../../Images/quemsomosCinco.png';
 import imageSeis from '../../Images/quemsomosSeis.png';
 import AgendeHorarioDiv from '../AgendeHorarioDiv/AgendeHorarioDiv';
+import { Link } from 'react-router-dom';
 
 function QuemSomos() {
   return (
@@ -16,8 +17,8 @@ function QuemSomos() {
           <div className="text-banner-quemsomos">
             <h1>Aumentando a sua autoestima com estilo!</h1>
             <div className="button-banner-quemsomos">
-              <button>SERVIÇOS</button>
-              <button>AGENDE</button>
+              <Link className='light-button' to="/servicos"><button>SERVIÇOS</button></Link>
+              <Link className='light-button' to="/agende"><button>AGENDE</button></Link>
             </div>
           </div>
         </div>

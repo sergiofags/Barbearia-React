@@ -14,11 +14,11 @@ function Navbar() {
             </div>
             <div className='links'>
               <ul>
-                <li className='link-left'><div><Link to="/">INICÍO</Link></div></li>
-                <li className='link-middle'><div><Link to="/quemsomos">QUEM SOMOS NÓS?</Link></div></li>
-                <li className='link-middle'><div><Link to="/servicos">SERVIÇOS</Link></div></li>
-                <li className='link-middle'><div><Link to="/agende">AGENDE UM HORÁRIO</Link></div></li>
-                <li className='link-right'><div><Link to="/contato">CONTATE-NOS</Link></div></li>
+                <li className='link-left'><Link to="/"><div>INICÍO</div></Link></li>
+                <li className='link-middle'><Link to="/quemsomos"><div>QUEM SOMOS NÓS?</div></Link></li>
+                <li className='link-middle'><Link to="/servicos"><div>SERVIÇOS</div></Link></li>
+                <li className='link-middle'><Link to="/agende"><div>AGENDE UM HORÁRIO</div></Link></li>
+                <li className='link-right'><Link to="/contato"><div>CONTATE-NOS</div></Link></li>
               </ul>
             </div>
             <div className='social-medias'>

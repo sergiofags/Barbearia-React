@@ -43,6 +43,9 @@
   cursor: pointer;
   color: #fff;
   font-weight: 400;
+  .dark-button {
+    color: #fff;
+  }
 }
 
 .agendehorario button::before {

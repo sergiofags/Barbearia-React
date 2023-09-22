@@ -2,6 +2,7 @@
 import React from 'react';
 import './Servicos.css';
 import AgendeHorarioDiv from '../AgendeHorarioDiv/AgendeHorarioDiv';
+import { Link } from 'react-router-dom';
 
 function Servicos() {
   return (
@@ -11,7 +12,7 @@ function Servicos() {
           <div className="text-banner-servicos">
             <h1>Na busca pelo estilo perfeito, a nossa barbearia é o seu melhor aliado.</h1>
             <div className="button-banner-servicos">
-              <button>AGENDE</button>
+              <Link className='light-button' to="/agende"><button>AGENDE AGORA</button></Link>
             </div>
           </div>
         </div>

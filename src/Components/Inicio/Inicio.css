@@ -80,6 +80,9 @@
   cursor: pointer;
   color: #333;
   font-weight: 400;
+  .light-button {
+    color: #333;
+  }
 }
 
 .button-banner-inicio button::before {
@@ -130,6 +133,9 @@
   cursor: pointer;
   color: #fff;
   font-weight: 400;
+  .dark-button {
+    color: #fff;
+  }
 }
 
 .button-inicio-servicos button::before {
@@ -290,6 +296,9 @@
   cursor: pointer;
   color: #fff;
   font-weight: 400;
+  .dark-button {
+    color: #fff;
+  }
 }
 
 .button-inicio-agende button::before {
@@ -365,4 +374,8 @@
   -ms-transform: scale(1.1);
   -ms-transition-duration: 500ms;
   -ms-transition-timing-function: ease-out;
+}
+
+.dark-button {
+  color: #333;
 }
