@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.bannerAgendeHorario {
+  background-image: url('../../Images/bannerAgendeHorario.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 768px;
+}
+
+.container-agende-banner {
+  width: 1170px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.text-banner-agende {
+  width: 684px;
+  text-align: center;
+  margin: auto;
+}
+
+.text-banner-agende h1 {
+font-family: Roboto;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.1125rem;
+margin-bottom: 30px;
+}
+
+.button-banner-agende {
+  margin: auto;
+}
+
+.button-banner-agende button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  outline: 2px solid #fff;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  padding-left: 57px;
+  padding-right: 57px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+
+.button-banner-agende button:hover {
+  cursor: pointer;
+  color: #333;
+  font-weight: 400;
+  .light-button {
+    color: #333;
+  }
+}
+
+.button-banner-agende button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(-100%);
+  transition: all .5s;
+  z-index: -1;
+}
+
+.button-banner-agende button:hover::before {
+  transform: translateX(0);
+}
+
+/* ---------------------------------------------------------------- */
+
+.agende {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container-agende {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-agende {
+  width: 1167px;
+}
+
+.text-agende h3 {
+  color: #333;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 15px;
+}
+
+.text-agende h1 {
+  color: #444;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.09375rem;
+  margin-bottom: 30px;
+}
+
+.formulario-agende {
+  width: 100%;
+  justify-content: space-between;
+}
+
+input, textarea, select, option{
+  color: #333;
+}
+
+.input-agende {
+  width: 570px;
+  height: 60px;
+  background-color: #F3F3F3;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.select-agende {
+  width: 570px;
+  height: 60px;
+  background-color: #F3F3F3;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+.forms-linha-um-agende, .forms-linha-dois-agende, .forms-linha-quatro-agende{
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.profissionais {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="radio" i] {
+  appearance: none;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30%;
+  transition: .4s all;
+}
+
+.profissionais input:checked {
+  filter: contrast(1.1);
+  border-radius: 20px;
+  transform: scale(1.05);
+}
+
+.p-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url('../../Images/p-1.png');
+}
+
+.p-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url('../../Images/p-2.png');
+}
+
+.p-3 {
+  width: 200px;
+  height: 200px;
+  background-image: url('../../Images/p-3.png');
+}
+
+.p-4 {
+  width: 200px;
+  height: 200px;
+  background-image: url('../../Images/p-4.png');
+}
+
+.p-5 {
+  width: 200px;
+  height: 200px;
+  background-image: url('../../Images/p-5.png');
+}
+
+.div-p-1, .div-p-2, .div-p-3, .div-p-4, .div-p-5 {
+  width: 220px;
+}
+
+.div-p-1 p, .div-p-2 p, .div-p-3 p, .div-p-4 p, .div-p-5 p{
+  color: #333;
+  font-size: 1.25rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  margin: auto;
+}
+
+.esolha-o-profissional {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.esolha-o-profissional p {
+  color: #333;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 30px;
+}
+
+input[type="date"] {
+  width: 570px;
+  height: 60px;
+  background-color: #F3F3F3;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+/* ----------------------------------------------------- */
+
+.forms-linha-cinco-agende button {
+  margin-top: 30px;
+  height: 58px;
+  width: 570px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  outline: 1px solid #333;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  font-weight: 300;
+}
+
+.forms-linha-cinco-agende button:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+}
+
+.forms-linha-cinco-agende button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  transform: translateX(-100%);
+  transition: all .5s;
+  z-index: -1;
+}
+
+.forms-linha-cinco-agende button:hover::before {
+  transform: translateX(0);
+}

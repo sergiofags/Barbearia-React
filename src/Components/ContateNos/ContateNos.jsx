@@ -61,7 +61,7 @@ function ContateNos() {
               <input 
                 className="input-contatenos"
                 type="text"
-                placeholder="Digite seu nome"
+                placeholder="Digite seu nome completo"
                 onChange={(e) => setName(e.target.value)}
                 value={name}
               />
