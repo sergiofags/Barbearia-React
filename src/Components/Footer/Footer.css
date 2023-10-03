@@ -52,6 +52,10 @@ footer p {
   margin-top: 15px;
 }
 
+.Link:hover {
+  color: #b64900 !important;
+}
+
 footer span {
   color: #FFF;
   text-align: justify;
@@ -67,4 +71,9 @@ footer span {
 
 .social-medias-footer ul {
   margin-top: 15px;
+}
+
+.social-medias-footer ul li:hover {
+  border-bottom: 2px solid #b64900;
+  cursor: pointer;
 }

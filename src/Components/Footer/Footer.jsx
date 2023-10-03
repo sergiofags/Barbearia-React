@@ -19,11 +19,11 @@ function Navbar() {
             </div>
             <div className="links-footer">
               <ul>
-                <li><Link to="/">INICÍO</Link></li>
-                <li><Link to="/quemsomos">QUEM SOMOS NÓS?</Link></li>
-                <li><Link to="/servicos">SERVIÇOS</Link></li>
-                <li><Link to="/agende">AGENDE UM HORÁRIO</Link></li>
-                <li><Link to="/contato">CONTATE-NOS</Link></li>
+                <li><Link className='Link' to="/">INICÍO</Link></li>
+                <li><Link className='Link' to="/quemsomos">QUEM SOMOS NÓS?</Link></li>
+                <li><Link className='Link' to="/servicos">SERVIÇOS</Link></li>
+                <li><Link className='Link' to="/agende">AGENDE UM HORÁRIO</Link></li>
+                <li><Link className='Link' to="/contato">CONTATE-NOS</Link></li>
               </ul>
             </div>
             <div className="social-medias-footer">

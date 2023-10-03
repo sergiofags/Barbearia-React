@@ -10,8 +10,10 @@
 
 header {
   background-color: #261C1C;
-  height: 90px;
+  height: 70px;
   width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 
 .container {
@@ -76,7 +78,7 @@ a {
 }
 
 li div {
-  height: 90px;
+  height: 70px;
   display: flex;
   align-items: center;
   transition: .2s;
@@ -84,4 +86,9 @@ li div {
 
 li div:hover {
   border-bottom: 5px solid white;
+}
+
+.social-medias ul li div:hover {
+  border-bottom: 5px solid white;
+  cursor: pointer;
 }
