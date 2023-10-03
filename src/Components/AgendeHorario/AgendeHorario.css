@@ -286,7 +286,18 @@ input[type="date"] {
 
 /* ----------------------------------------------------- */
 
-.forms-linha-cinco-agende button {
+.forms-linha-cinco-agende{
+  display: flex;
+  justify-content: space-between;
+}
+
+.forms-linha-cinco-agende div {
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.forms-linha-cinco-agende button, .forms-linha-cinco-agende div{
   margin-top: 30px;
   height: 58px;
   width: 570px;
@@ -307,13 +318,13 @@ input[type="date"] {
   font-weight: 300;
 }
 
-.forms-linha-cinco-agende button:hover {
+.forms-linha-cinco-agende button:hover, .forms-linha-cinco-agende div:hover{
   cursor: pointer;
   color: #fff;
   font-weight: 400;
 }
 
-.forms-linha-cinco-agende button::before {
+.forms-linha-cinco-agende button::before, .forms-linha-cinco-agende div::before {
   content: "";
   position: absolute;
   left: 0;
@@ -326,6 +337,6 @@ input[type="date"] {
   z-index: -1;
 }
 
-.forms-linha-cinco-agende button:hover::before {
+.forms-linha-cinco-agende button:hover::before, .forms-linha-cinco-agende div:hover::before {
   transform: translateX(0);
 }
